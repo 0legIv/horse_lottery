@@ -1,0 +1,43 @@
+<h1>Show Race</h1>
+
+<ul>
+
+  <li>
+    <strong>Horses allowed:</strong>
+    <%= @race.horses_allowed %>
+  </li>
+
+  <li>
+    <strong>Horses ids:</strong>
+    <%= @race.horses_ids %>
+  </li>
+
+  <li>
+    <strong>Length:</strong>
+    <%= @race.length %>
+  </li>
+
+  <li>
+    <strong>Location:</strong>
+    <%= @race.location %>
+  </li>
+
+  <li>
+    <strong>Lottery horses:</strong>
+    <%= @race.lottery_horses %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @race.name %>
+  </li>
+
+  <li>
+    <strong>Weather:</strong>
+    <%= @race.weather %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.race_path(@conn, :edit, @race) %></span>
+<span><%= link "Back", to: Routes.race_path(@conn, :index) %></span>

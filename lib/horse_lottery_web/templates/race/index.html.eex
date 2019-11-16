@@ -1,0 +1,38 @@
+<h1>Listing Races</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Horses allowed</th>
+      <th>Horses ids</th>
+      <th>Length</th>
+      <th>Location</th>
+      <th>Lottery horses</th>
+      <th>Name</th>
+      <th>Weather</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for race <- @races do %>
+    <tr>
+      <td><%= race.horses_allowed %></td>
+      <td><%= race.horses_ids %></td>
+      <td><%= race.length %></td>
+      <td><%= race.location %></td>
+      <td><%= race.lottery_horses %></td>
+      <td><%= race.name %></td>
+      <td><%= race.weather %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.race_path(@conn, :show, race) %></span>
+        <span><%= link "Edit", to: Routes.race_path(@conn, :edit, race) %></span>
+        <span><%= link "Delete", to: Routes.race_path(@conn, :delete, race), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Race", to: Routes.race_path(@conn, :new) %></span>

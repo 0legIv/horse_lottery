@@ -1,0 +1,33 @@
+<h1>Show Horse</h1>
+
+<ul>
+
+  <li>
+    <strong>Colour:</strong>
+    <%= @horse.colour %>
+  </li>
+
+  <li>
+    <strong>Genotype:</strong>
+    <%= @horse.genotype %>
+  </li>
+
+  <li>
+    <strong>Lottery:</strong>
+    <%= @horse.lottery %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @horse.name %>
+  </li>
+
+  <li>
+    <strong>Rating:</strong>
+    <%= @horse.rating %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.horse_path(@conn, :edit, @horse) %></span>
+<span><%= link "Back", to: Routes.horse_path(@conn, :index) %></span>
