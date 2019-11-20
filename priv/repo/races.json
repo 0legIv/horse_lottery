@@ -1,0 +1,902 @@
+[
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Wigan",
+    "lottery_horses": 4,
+    "name": "Royal Wigan Hunt Cup",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Leipzig",
+    "lottery_horses": 2,
+    "name": "Leipzig Grand Masters",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Napier",
+    "lottery_horses": 1,
+    "name": "New Zealand Oaks",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Pasir Ris",
+    "lottery_horses": 4,
+    "name": "Singapore Classic",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Pretoria",
+    "lottery_horses": 4,
+    "name": "South African Classic Podium",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Philadelphia",
+    "lottery_horses": 2,
+    "name": "Philadelphia Spirit Dash",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Chirstchurch",
+    "lottery_horses": 1,
+    "name": "Christchurch Classic",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Hyderabad",
+    "lottery_horses": 2,
+    "name": "Hyderabad Silver Crown",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Greenwich",
+    "lottery_horses": 1,
+    "name": "Greenwich Jubilee Stakes",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Abu Dhabi",
+    "lottery_horses": 4,
+    "name": "Abu Dubai World Cup",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Barbados",
+    "lottery_horses": 4,
+    "name": "Silver Whip Bonanza",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Leeds",
+    "lottery_horses": 1,
+    "name": "Bronze Guineas Stakes",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Cork",
+    "lottery_horses": 5,
+    "name": "Irish Oaks 2000",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Hillingdon",
+    "lottery_horses": 1,
+    "name": "The Commonwealth Cup",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Valencia",
+    "lottery_horses": 3,
+    "name": "Spanish 2000 Guineas",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Manila",
+    "lottery_horses": 3,
+    "name": "Manila Gran Copa",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Shantou",
+    "lottery_horses": 1,
+    "name": "Shantou Derby",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Copenhagen",
+    "lottery_horses": 1,
+    "name": "Dansk Primiere",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Lausanne",
+    "lottery_horses": 3,
+    "name": "Swiss Mountain Oaks",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Warsaw",
+    "lottery_horses": 5,
+    "name": "Warsaw Half Blood Derby",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Calgary",
+    "lottery_horses": 4,
+    "name": "Calgary Mile Hop",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Montevideo",
+    "lottery_horses": 1,
+    "name": "Miguel Diaz Gran Premio",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Malmö",
+    "lottery_horses": 4,
+    "name": "Sweden St. Leger",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Stockholm",
+    "lottery_horses": 1,
+    "name": "Stockholm Sprint Championship",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Los Angeles",
+    "lottery_horses": 5,
+    "name": "LA Jubilee Classic",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2600,
+    "location": "East Riding of Yorkshire",
+    "lottery_horses": 3,
+    "name": "Yorkshire Gold Enduro Stakes",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Rosario",
+    "lottery_horses": 1,
+    "name": "Argentine 1000 Guineas Sprint",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Trondheim",
+    "lottery_horses": 2,
+    "name": "Trondheim Masters",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Istanbul",
+    "lottery_horses": 5,
+    "name": "Istanbul Stakes",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Bradford",
+    "lottery_horses": 2,
+    "name": "Bradford National",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Nelson",
+    "lottery_horses": 1,
+    "name": "Stoneybridge Stakes",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Dudley",
+    "lottery_horses": 1,
+    "name": "Dudlet Special",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Port Alegre",
+    "lottery_horses": 3,
+    "name": "Cup of Major Alegre",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Guangzhou",
+    "lottery_horses": 5,
+    "name": "Guangzhou Stakes",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Debrecen",
+    "lottery_horses": 3,
+    "name": "Debercen Thoroughbred Open",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Milwaukee",
+    "lottery_horses": 4,
+    "name": "Pacific Classic Stakes",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Wirral",
+    "lottery_horses": 2,
+    "name": "Wirral Way Court Stakes",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Peshawar",
+    "lottery_horses": 2,
+    "name": "Peshawar National Cup",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Dallas",
+    "lottery_horses": 3,
+    "name": "Dallas Challenge",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Vancouver",
+    "lottery_horses": 4,
+    "name": "Silver Turf Stakes",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Oslo",
+    "lottery_horses": 1,
+    "name": "Norsk Challenege",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Bloemfontein",
+    "lottery_horses": 2,
+    "name": "The Annual Metropolitan",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Sapporo",
+    "lottery_horses": 4,
+    "name": "Japan Cup",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Bergen",
+    "lottery_horses": 3,
+    "name": "Norsk Oaks",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Dubai",
+    "lottery_horses": 1,
+    "name": "Dubai Golden Mile",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Setagaya",
+    "lottery_horses": 5,
+    "name": "Setagaya Open",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Valencia",
+    "lottery_horses": 4,
+    "name": "Valencia Special",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Chennai",
+    "lottery_horses": 3,
+    "name": "Chennai Super Challenge",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Jurong East",
+    "lottery_horses": 3,
+    "name": "Singapore Derby",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Chengdu",
+    "lottery_horses": 1,
+    "name": "Chengdu Oaks",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Columbus",
+    "lottery_horses": 1,
+    "name": "Colombus Cup",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Ma Wan",
+    "lottery_horses": 2,
+    "name": "The Hong Kong Special",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Caracas",
+    "lottery_horses": 1,
+    "name": "Caracas Cup",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Madrid",
+    "lottery_horses": 5,
+    "name": "The Spanish Oaks",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Xi'an",
+    "lottery_horses": 1,
+    "name": "The Xi'an National",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "South Gloucestershire",
+    "lottery_horses": 5,
+    "name": "Grand Prix South",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Stuttgart",
+    "lottery_horses": 2,
+    "name": "Deutsches Derby",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Lugano",
+    "lottery_horses": 3,
+    "name": "Swiss St. Leger",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Nashville",
+    "lottery_horses": 4,
+    "name": "Haskell Invitational Stakes",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Lucknow",
+    "lottery_horses": 4,
+    "name": "Lucknow Grand Prix",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Plamerston North",
+    "lottery_horses": 1,
+    "name": "New Zealand Derby",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Charlotte",
+    "lottery_horses": 4,
+    "name": "Charlotte National",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Gaziantep",
+    "lottery_horses": 5,
+    "name": "The Turkeye National Gold",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Sao Paulo",
+    "lottery_horses": 1,
+    "name": "Brazillian Cup",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Rio De Janeiro",
+    "lottery_horses": 1,
+    "name": "Grande Prêmio Heritage",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Melourne",
+    "lottery_horses": 5,
+    "name": "Golden Oaks Day Dash",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Port Louis",
+    "lottery_horses": 2,
+    "name": "Port Louis Maiden Bronze Cup",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Harbin",
+    "lottery_horses": 4,
+    "name": "Harbin Masters",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Cebu",
+    "lottery_horses": 1,
+    "name": "Philippines Gold Cup",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Belfast",
+    "lottery_horses": 4,
+    "name": "Irish Derby",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Johor Bahru",
+    "lottery_horses": 1,
+    "name": "Johor Bahru Challenge",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Sacramento",
+    "lottery_horses": 5,
+    "name": "Santa Anita Handicap",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Concepcion",
+    "lottery_horses": 4,
+    "name": "El Derby Premiere",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Brent",
+    "lottery_horses": 5,
+    "name": "The Duke of Cambridge Cup",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Belo Horizonte",
+    "lottery_horses": 1,
+    "name": "Horizon State Stakes",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Leicester",
+    "lottery_horses": 2,
+    "name": "The Royal Bronze Leicester",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Lahore",
+    "lottery_horses": 1,
+    "name": "Lahore Double Crown Stakes",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Konya",
+    "lottery_horses": 4,
+    "name": "Konya Derby 1600",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Melbourne",
+    "lottery_horses": 5,
+    "name": "Wheelers Hill Handicap",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Geneva",
+    "lottery_horses": 3,
+    "name": "Swiss 2000 Guineas Semi Enduro",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Thane",
+    "lottery_horses": 1,
+    "name": "Thane Masters2200",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Albuquerque",
+    "lottery_horses": 5,
+    "name": "Pegasus World Cup",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "George Town",
+    "lottery_horses": 2,
+    "name": "George Town Oaks",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "Adana",
+    "lottery_horses": 5,
+    "name": "Adana St. Leger",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Montreal",
+    "lottery_horses": 2,
+    "name": "The Canadian International Dash",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1000,
+    "location": "Turin",
+    "lottery_horses": 2,
+    "name": "Oaks d'Italia",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Cologne",
+    "lottery_horses": 3,
+    "name": "The Cologne Classic",
+    "weather": "Rainy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Copenhagen",
+    "lottery_horses": 5,
+    "name": "Scandinavian Open Championship",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2000,
+    "location": "Sharjah",
+    "lottery_horses": 3,
+    "name": "UAE Guineas 2000",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1200,
+    "location": "Barcelona",
+    "lottery_horses": 2,
+    "name": "Spanish Derby",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Sunderland",
+    "lottery_horses": 3,
+    "name": "Sunderland Stakes",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Houston",
+    "lottery_horses": 4,
+    "name": "Houston Chase",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 9,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Salvador",
+    "lottery_horses": 2,
+    "name": "Grande Prêmio Roberto Salha",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Copenhagen",
+    "lottery_horses": 5,
+    "name": "The Danish Oaks",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1600,
+    "location": "Delhi",
+    "lottery_horses": 2,
+    "name": "Delhi Masters",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 11,
+    "horses_ids": [],
+    "length": 2200,
+    "location": "Salvador",
+    "lottery_horses": 4,
+    "name": "Salvador Grandè",
+    "weather": "Cloudy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 2400,
+    "location": "San Diego",
+    "lottery_horses": 4,
+    "name": "San Diego Grand Prix",
+    "weather": "Stormy"
+  },
+  {
+    "horses_allowed": 12,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Manaus",
+    "lottery_horses": 5,
+    "name": "Brazil Grande Prêmio",
+    "weather": "Sunny"
+  },
+  {
+    "horses_allowed": 8,
+    "horses_ids": [],
+    "length": 1800,
+    "location": "Toronto",
+    "lottery_horses": 4,
+    "name": "Prince of Toronto Stakes",
+    "weather": "Windy"
+  },
+  {
+    "horses_allowed": 10,
+    "horses_ids": [],
+    "length": 1400,
+    "location": "Tucson",
+    "lottery_horses": 4,
+    "name": "Preakness Stakes",
+    "weather": "Rainy"
+  }
+]

@@ -9,13 +9,14 @@ defmodule HorseLottery.Storage.Horse do
     field :name, :string
     field :rating, :integer
 
+    belongs_to(:race, HorseLottery.Storage.Race)
     timestamps()
   end
 
   @doc false
   def changeset(horse, attrs) do
     horse
-    |> cast(attrs, [:colour, :genotype, :lottery, :name, :rating])
+    |> cast(attrs, [:colour, :genotype, :lottery, :name, :rating, :race_id])
     |> validate_required([:colour, :genotype, :lottery, :name, :rating])
   end
 end

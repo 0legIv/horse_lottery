@@ -3,12 +3,10 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
       <th>Colour</th>
       <th>Genotype</th>
-      <th>Lottery</th>
-      <th>Name</th>
       <th>Rating</th>
-
       <th></th>
     </tr>
   </thead>
@@ -17,14 +15,10 @@
     <tr>
       <td><%= horse.colour %></td>
       <td><%= horse.genotype %></td>
-      <td><%= horse.lottery %></td>
       <td><%= horse.name %></td>
       <td><%= horse.rating %></td>
-
       <td>
         <span><%= link "Show", to: Routes.horse_path(@conn, :show, horse) %></span>
-        <span><%= link "Edit", to: Routes.horse_path(@conn, :edit, horse) %></span>
-        <span><%= link "Delete", to: Routes.horse_path(@conn, :delete, horse), method: :delete, data: [confirm: "Are you sure?"] %></span>
       </td>
     </tr>
 <% end %>

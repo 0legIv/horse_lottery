@@ -17,7 +17,8 @@ defmodule HorseLotteryWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    resources "/races", RaceController
+    resources "/races", RaceController, only: [:index, :show]
+    get "/lottery", RaceController, :lottery
     resources "/horses", HorseController
   end
 

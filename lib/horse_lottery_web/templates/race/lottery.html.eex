@@ -1,0 +1,30 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>Horse name</th>
+        <th>Colour</th>
+        <th>Genotype</th>
+        <th>Rating</th>
+        <th>Race Name</th>
+        <th>Weather</th>
+        <th>Location</th>
+        <th>Length</th>
+      </tr>
+    </thead>
+    <tbody class="panel">
+  <%= for race <- @races do %>
+    <%= for horse <- race.horses do %>
+      <tr>
+        <td><%= horse.name %></td>
+        <td><%= horse.colour %></td>
+        <td><%= horse.genotype %></td>
+        <td><%= horse.rating %></td>
+        <td><%= race.name %></td>
+        <td><%= race.weather %></td>
+        <td><%= race.location %></td>
+        <td><%= race.length %></td>
+      </tr>
+      <% end %>
+  <% end %>
+    </tbody>
+  </table>

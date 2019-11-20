@@ -11,7 +11,14 @@ import css from "../css/app.css"
 //
 import "phoenix_html"
 
-// Import local files
-//
-// Local files can be imported directly using relative paths, for example:
-// import socket from "./socket"
+$('tr').click(function() {
+  var $modal_id = $(this).attr('data-target');
+  var $modal = document.getElementById($modal_id);
+  $("#" + $modal_id).modal();
+  // console.log($modal);
+  // if($modal.classList.contains('show')) {
+  //   $modal.classList.remove('show')
+  // } else {
+  //   $modal.classList.add('show')
+  // }
+});

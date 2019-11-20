@@ -35,7 +35,13 @@ defmodule HorseLottery.Storage do
       ** (Ecto.NoResultsError)
 
   """
-  def get_race!(id), do: Repo.get!(Race, id)
+  def get_race!(id) do 
+    Repo.get!(Race, id) |> Repo.preload(:horses)
+  end
+
+  def get_horses_for_race(race) do
+    Repo.preload(race, :horses)
+  end
 
   @doc """
   Creates a race.
@@ -115,6 +121,10 @@ defmodule HorseLottery.Storage do
   """
   def list_horses do
     Repo.all(Horse)
+  end
+
+  def get_horses_for_distribution() do
+    from(h in Horse, select: %{id: h.id, rating: h.rating}) |> Repo.all
   end
 
   @doc """

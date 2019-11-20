@@ -8,6 +8,7 @@ defmodule HorseLottery.Repo.Migrations.CreateHorsesTable do
       add(:lottery, :boolean)
       add(:name, :text)
       add(:rating, :integer)
+      add(:race_id, references("races"))
 
       timestamps()
     end

@@ -1,43 +1,66 @@
-<h1>Show Race</h1>
+<h3>Race</h3>
 
-<ul>
+<div class="card" style="width: 100%; margin-bottom: 50px;">
+  <ul class="list-group list-group-flush">
 
-  <li>
-    <strong>Horses allowed:</strong>
-    <%= @race.horses_allowed %>
-  </li>
+    <li class="list-group-item">
+      <strong>Name:</strong>
+      <%= @race.name %>
+    </li>
 
-  <li>
-    <strong>Horses ids:</strong>
-    <%= @race.horses_ids %>
-  </li>
+    <li class="list-group-item">
+      <strong>Horses allowed:</strong>
+      <%= @race.horses_allowed %>
+    </li>
 
-  <li>
-    <strong>Length:</strong>
-    <%= @race.length %>
-  </li>
+    <li class="list-group-item">
+      <strong>Length:</strong>
+      <%= @race.length %>
+    </li>
 
-  <li>
-    <strong>Location:</strong>
-    <%= @race.location %>
-  </li>
+    <li class="list-group-item">
+      <strong>Location:</strong>
+      <%= @race.location %>
+    </li>
 
-  <li>
-    <strong>Lottery horses:</strong>
-    <%= @race.lottery_horses %>
-  </li>
+    <li class="list-group-item">
+      <strong>Lottery horses:</strong>
+      <%= @race.lottery_horses %>
+    </li>
 
-  <li>
-    <strong>Name:</strong>
-    <%= @race.name %>
-  </li>
+    <li class="list-group-item">
+      <strong>Weather:</strong>
+      <%= @race.weather %>
+    </li>
+  </ul>
+</div>
 
-  <li>
-    <strong>Weather:</strong>
-    <%= @race.weather %>
-  </li>
+<h3>Horses</h3>
 
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Colour</th>
+      <th>Genotype</th>
+      <th>Rating</th>
 
-<span><%= link "Edit", to: Routes.race_path(@conn, :edit, @race) %></span>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for horse <- @horses do %>
+    <tr>
+      <td><%= horse.name %></td>
+      <td><%= horse.colour %></td>
+      <td><%= horse.genotype %></td>
+      <td><%= horse.rating %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.horse_path(@conn, :show, horse) %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
 <span><%= link "Back", to: Routes.race_path(@conn, :index) %></span>

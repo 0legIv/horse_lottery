@@ -3,10 +3,16 @@ defmodule HorseLotteryWeb.RaceController do
 
   alias HorseLottery.Storage
   alias HorseLottery.Storage.Race
+  alias HorseLottery.RaceDistributor
 
   def index(conn, _params) do
     races = Storage.list_races()
     render(conn, "index.html", races: races)
+  end
+
+  def lottery(conn, _params) do
+    races = Storage.list_races() |> RaceDistributor.lottery()
+    render(conn, "lottery.html", races: races)
   end
 
   def new(conn, _params) do
@@ -28,7 +34,7 @@ defmodule HorseLotteryWeb.RaceController do
 
   def show(conn, %{"id" => id}) do
     race = Storage.get_race!(id)
-    render(conn, "show.html", race: race)
+    render(conn, "show.html", race: race, horses: race.horses)
   end
 
   def edit(conn, %{"id" => id}) do
